@@ -1,0 +1,150 @@
+<DOCTYPE html>
+<html lang="th">
+<head>
+<title>Gaming Profile Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 30px;
+    background-color: rgb(20, 16, 49);
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ body {
+    margin: 0;
+    
+}
+
+img {
+   width: 300px;
+   height: 250px;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+section {
+    flex: 1;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+    background-color: rgb(63, 58, 97) ;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    
+    
+}
+
+nav li a {
+    color: #ffffff;
+}
+
+nav li a:hover:not(.active) {
+    color: red;
+    
+
+}
+
+article {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    background-color: rgb(17, 17, 48);
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    border-radius: 25px;
+}
+
+p {
+    padding-bottom: 30px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+h5 {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+footer {
+    padding: 60px;
+    background-color: rgb(20, 16, 49);
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    
+}
+
+
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+
+<body>
+    <header>
+        รายละเอียดเกม
+    </header>
+
+
+<section>
+    <p >
+    <img src="data:image/jpeg;base64,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"  > <br>
+    <br> Counter-Strike 2
+        </p>
+    
+    <article>
+        <h2>Counter-Strike 2</h2>
+        <p1>เคาน์เตอร์-สไตรก์: โกลบัลออฟเฟนซิฟ เป็นวิดีโอเกมออนไลน์ประเภทยิงทางยุทธวิธีมุมมองบุคคลที่หนึ่ง พัฒนาโดย วาล์ว คอร์ปอเรชั่นและฮิตเดน <br>
+            แพทซ์ เอ็นเตอร์เทนเมนท์ ซึ่งเป็นเกมชุดที่ 4 จากแฟรนไชส์เคาน์เตอร์-สไตรก์ ตัวเกมส์ได้รับการพัฒนามากกว่าสองปี  โกลบัลออฟเฟนซิฟปล่อยออกมาในระบบปฏิบัติการวินโดวส์, 
+            แมคโอเอส, เอกซ์บอกซ์ 360</p1>
+
+        <nav>
+            <ul>
+            <li><a href="#">สเปคเกม</a></li>
+            <li><a href="#">ความนิยมของเกม</a></li>
+            </ul>
+        </nav>
+    </article>
+
+
+</section>
+
+
+    
+    
+
+</body>
+</html>
